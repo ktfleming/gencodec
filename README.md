@@ -30,3 +30,14 @@ command! -range=% -nargs=0 GenCodec :<line1>,<line2>call GenCodec()
 Then, you can select a case class definition in visual mode (it can span multiple lines) and run `:GenCodec`, at which point the generated companion object will be inserted after the selected range.
 
 [Demonstration of Vim integration](https://asciinema.org/a/VDWBRblQ4K8BZhqb0uMh3rsdS)
+
+## License
+
+Licensed under either of
+
+ * Apache License, Version 2.0
+   ([LICENSE-APACHE](LICENSE-APACHE) or http://www.apache.org/licenses/LICENSE-2.0)
+ * MIT license
+   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+at your option.
