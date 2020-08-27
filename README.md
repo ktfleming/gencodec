@@ -1,5 +1,9 @@
 `gencodec` is a tool to quickly generate [Circe](https://circe.github.io/circe/) encoders/decoders, inspired by [Mr. Boilerplate](https://japgolly.github.io/mr.boilerplate/).
 
+# Installation
+
+You can download a binary from the Github releases page (macOS only at the moment), or build it yourself with Cargo.
+
 # Usage
 
 `gencodec` accepts via stdin a line that contains a case class description (something like `case class Something(number: Int, whatever: String)`) and prints to stdout a companion object for that case class, along with a Circe Encoder and Decoder defined using the `forProductN` methods. For the given example, it would be
